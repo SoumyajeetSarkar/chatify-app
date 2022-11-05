@@ -1,0 +1,19 @@
+.home-container-wrapper {
+    text-align: center;
+    width: 80vw;
+    height: 70vh;
+    min-height: 600px;
+    max-width: 1200px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin: 15vh auto;
+    box-shadow: rgba(0,0,0,0.33) 0px 1px 4px 0px;
+    background: #fff;
+}
+
+.home-container {
+    display: grid;
+    height: 100%;
+    border-radius: inherit;
+    grid-template-columns: 1fr 2fr;
+}
