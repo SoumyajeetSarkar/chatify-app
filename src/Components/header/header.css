@@ -1,0 +1,83 @@
+.header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+.header-title {
+    width: 100%;
+}
+ .header-title h2{
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: 2px;
+}
+
+.header-title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+    margin: 0;
+    color: aliceblue;
+    align-items: center;
+}
+.header-title .my-photo {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.header-about {
+    flex: 1;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-footer {
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+}
+.header-footer a {
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-footer p {
+    padding: 2px;
+    margin: 5px 0;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-socials {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-socials svg {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.header-socials svg:hover {
+    transform: scale(1.3);
+    color: aquamarine;
+}
