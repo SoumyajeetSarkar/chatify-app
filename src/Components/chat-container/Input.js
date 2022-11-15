@@ -34,7 +34,7 @@ const Input = () => {
     })
     setText('');
   }
-  return (
+  return userData.chatID!='null'?(
     <div className='chat-input-container'>
       <input placeholder='Type message' type="text" value={text} onChange={(e)=>{setText(e.target.value)}}/>
       <div className='chat-input-actions'>
@@ -42,7 +42,7 @@ const Input = () => {
         <button onClick={sendMessage}><FiSend size={30} /></button>
       </div>
       </div>
-  )
+  ): <div><h1>CLICK ON A CHAT TO START CHATTING</h1></div>
 }
 
 export default Input
